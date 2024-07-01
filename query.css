@@ -1,0 +1,229 @@
+@media (min-width:1000px) and (max-width: 1250px) {
+    .hero p:last-of-type{
+        max-inline-size: 45ch;
+      }
+    .strategy .bottom .media{
+        padding: 3.5rem 0 2.5rem;
+        width: 45%;
+      }
+      .strategy .bottom .media-details p{
+        margin: 1rem 0;
+        font-size: 1rem;
+        line-height: 2rem
+      }
+      .strategy .bottom .media-details h2{
+        margin: 1rem 0;
+        font-size: 2rem;
+        line-height: 2.5rem
+      }
+      .btn{
+        font-size: 1.1rem;
+        padding: 1rem 3rem;
+        color: var(--PRIMARY-COLOR);
+      }
+      .strategy .bottom .media .strategy-img.tw{
+        bottom: 30px;
+        left: 70px;
+      }
+      .strategy .bottom .media .strategy-img.wik{
+        bottom: 30px;
+        right: 70px;
+      }
+      .subscribe .btr{
+        width: 220px;
+        bottom: -20px;
+        right: -57px;
+
+      }
+}
+
+@media (min-width:700px) and (max-width: 999px) {
+    nav{
+        width: 95%;
+      }
+      nav .logo{
+        display: flex;
+        gap: .4em;
+      }
+      nav ul{
+        width: 40%;
+      }
+      nav button{
+        padding: .8rem 1.5rem;
+      }
+
+      /**HERO */
+      .hero{
+        padding: 4rem 0;
+      }
+      .hero h1{
+        font-size: 4rem;
+        margin-bottom: 2rem;
+      }
+      .hero p:last-of-type{
+        max-inline-size: 40ch;
+        font-size: 1.1rem;
+      }
+      .hero .btn{
+        font-size: 1.15rem;
+        padding: 1rem 3rem;
+      }
+      .hero .img-left{
+        width: 160px;
+      }
+      .hero .img-right{
+        width: 80px;
+      }
+
+      /** SPONSORS */
+      .sponsors{
+        width: 85%;
+        padding: 3rem 0;
+      }
+      .sponsor{
+        width: 90px;
+      }
+
+      /**STRATEGY */
+      .strategy{
+        gap: 2.5rem;
+        margin: 5rem auto;
+      }
+      .strategy .left h2, 
+      .strategy .bottom .media-details h2, 
+      #blog-header h2{
+        font-size: 1.8rem;
+        line-height: 2.8rem;
+      }
+      .strategy .left p, .strategy .bottom .media-details p{
+        max-inline-size: 90%;
+        margin: 1.6rem 0;
+        line-height: 2rem;
+      }
+      .strategy .right{
+        gap: 2.5rem;
+      }
+      .strategy .right .ideas{
+        gap: 1rem;
+      }
+      .strategy .right .ideas p{
+        max-inline-size: 90%;
+      }
+      .strategy .bottom{
+        padding: 8rem 0 6rem;
+        grid-column: 1/3;
+        display: flex;
+        justify-content: space-around;
+        gap: 2rem;
+      }
+      .strategy .bottom .media{
+        padding: 3.5rem 0 0rem;
+        width: 45%;
+      }
+      .strategy .logo>div{
+        height: 35px;
+        width: 35px;
+      }
+      .strategy .media .logo h2{
+        padding-left: .3rem;
+        font-size: 1.7rem;
+      }
+      .strategy .bottom .media .strategy-img{
+        width: 60px;
+        height: 60px;
+      }
+      .strategy .bottom .media .strategy-img img{
+        padding: .5rem;
+      }
+      .strategy .bottom .media .strategy-img.fb{
+        top: -50px;
+        left: -50px;
+      }
+      .strategy .bottom .media .strategy-img.ig{
+        top: -60px;
+        right: -30px;
+      }
+      .strategy .bottom .media .strategy-img.not{
+        bottom: -30px;
+        right: -30px;
+      }
+      .strategy .bottom .media .strategy-img.tw{
+        width: 40px;
+        height: 45px;
+        bottom: 50px;
+        left: 40px;
+      }
+      .strategy .bottom .media .strategy-img.wik{
+        width: 45px;
+        height: 45px;
+        bottom: 50px;
+        right: 40px;
+      }
+      .strategy .bottom .media .strategy-img.tw img,
+      .strategy .bottom .media .strategy-img.wik img{
+        padding: .6rem;
+      }
+      .strategy .bottom .media-details{
+        width: 50%;
+      }
+      .strategy .bottom .media-details p{
+        margin: 1rem 0;
+        font-size: 1rem;
+        line-height: 2rem
+      }
+      .strategy .bottom .media-details h2{
+        margin-bottom: 1rem;
+        font-size: 1.85rem;
+        line-height: 2.4rem
+      }
+      .btn{
+        font-size: 1.1rem;
+        padding: 1rem 3rem;
+        color: var(--PRIMARY-COLOR);
+      }
+      #blog-header{
+        padding-bottom: 2rem;
+      }
+      #blog-header h2{
+        width: 40%;
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+      }
+      #blog-header .blog-picks{
+        font-size: 1.1rem;
+      }
+
+      .blogs .posts .post-one button{
+        width: 60%;
+      }
+
+      /**SUBSCRIBE **/
+      .subscribe{
+        padding: 4rem 5rem 0;
+        font-size: 1.3rem;
+        line-height: 2.5rem;
+      }
+      .subscribe h3{
+        font-weight: 500;
+        max-width: 80%;
+      }
+      .subscribe .invert{
+        width: 80px;
+      }
+      .subscribe .btr{
+        position: absolute;
+        width: 150px;
+        bottom: -20px;
+        right: -40px;
+      }
+      .subscribe .logo h2{
+        font-weight: 500;
+        font-size: 1.4rem;
+      }
+      .subscribe input{
+        padding: 1rem;
+      }
+      .subscribe input::placeholder{
+        font-size: .8rem;
+      }
+}

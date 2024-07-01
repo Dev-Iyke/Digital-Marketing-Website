@@ -189,6 +189,7 @@ nav button{
 .strategy .bottom .media{
   background-color: #172A21;
   width: 40%;
+/*   height: 300px; */
   padding: 7rem 0;
   border: 12px solid #f2f2f2;
   position: relative;
@@ -351,43 +352,6 @@ nav button{
   width: 150px;
 }
 
-/* .blogs .posts{
-  display: flex;
-  gap: 2rem;
-}
-.blogs .posts .post-items{
-  display: flex;
-  gap: 2rem;
-  width: 60%;
-}
-.blogs .posts .post, .blogs .posts .post-one{
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-.blogs .posts .post-one button{
-  margin: 2.5rem 0;
-  border: 1px solid #f39a36;
-  color: #f39a36;
-  font-size: 1.15rem;
-  padding: 1rem 2rem;
-  background-color: var(--PRIMARY-COLOR);
-  width: 40%;
-  font-weight: bold;
-}
-.blogs .posts p{
-  color: #808371;
-  font-size: 1rem;
-  line-height: 1.5rem;
-}
-.blogs .posts h4{
-  color: #253D32;
-  font-size: 1.4rem;
-  font-weight: 500;
-}
-.see{
-  width: 150px;
-} */
 /** SUBSCRIBE SECTION */
 .subscribe{
   position: relative;
@@ -430,6 +394,7 @@ nav button{
   border-radius: 35px;
   border: none;
   outline: none;
+  margin-right: 1.5rem;
 }
 .subscribe input::placeholder{
   font-size: 1rem;
