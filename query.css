@@ -227,3 +227,346 @@
         font-size: .8rem;
       }
 }
+@media screen and (max-width: 699px){
+  header{
+    background-color: var(--SECONDARY-COLOR);
+    color: var(--PRIMARY-COLOR);
+    padding: 1.5rem 0;
+  }
+  nav{
+    justify-content: space-between;
+  }
+  nav ul{
+    /* width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; */
+    display: none;
+  }
+/*   nav ul li{
+    list-style: none;
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: var(--PRIMARY-COLOR);
+  }
+  nav button{
+    background-color: hsla(0, 0%, 100%, 0.102);
+    border: 1px solid #EDFF8166;
+    color: white;
+    padding: 1rem 1.7rem;
+    border-radius: 25px;
+    font-weight: bold;
+  } */
+  nav #menu{
+    display: block;
+  }
+
+  .hero{
+    padding: 3rem 0 5rem;
+  }
+  .hero p:first-of-type{
+    margin-bottom: 1.5rem;
+    font-weight: 400;
+  }
+  .hero h1{
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+  }
+  .hero p:last-of-type{
+    max-inline-size: 35ch;
+    font-size: 1rem;
+  }
+  .hero .img-left{
+    width: 110px;
+
+  }
+  .hero .img-right{
+    width: 60px;
+  }
+  .btn{
+    margin: 2.5rem 0;
+    border: 1px solid rgba(255, 255, 255, 0.69);
+    border-radius: 35px;
+    background-color: #F3A141;
+    font-size: .9rem;
+    padding: .8rem 2rem;
+    color: var(--PRIMARY-COLOR);
+  }
+
+  /**SPONSORS **/
+.sponsors{
+  width: 95%;
+}
+.sponsor{
+  width: 70px;
+}
+
+/** STRATEGY SECTION */
+.strategy{
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  width: 90%;
+  margin: 2rem auto;
+}
+.strategy .left h2, 
+.strategy .bottom .media-details h2, 
+#blog-header h2{
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+.strategy .left p, .strategy .bottom .media-details p{
+  max-inline-size: 90%;
+  margin: 1rem 0 .5rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.strategy .left a{
+  font-size: 1rem;
+}
+.strategy .right{
+  gap: 1.5rem;
+}
+.strategy .right .ideas{
+  gap: 1rem;
+}
+.strategy .ideas .strategy-img{
+  width: 30px;
+}
+.strategy .right .ideas h3{
+  font-size: 1.1rem;
+}
+.strategy .right .ideas p{
+  font-size: .85rem;
+  max-inline-size: 95%;
+  line-height: 1.4rem;
+}
+.strategy .bottom{
+  padding: 4rem 0 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.strategy .bottom .media{
+  padding: 5.5rem 0rem;
+  width: 90%;
+}
+.strategy .logo>div{
+  height: 35px;
+  width: 35px;
+}
+.strategy .media .logo h2{
+  padding-left: .3rem;
+  font-size: 1.7rem;
+}
+.strategy .bottom .media .strategy-img{
+  width: 60px;
+  height: 60px;
+}
+.strategy .bottom .media .strategy-img img{
+  padding: .5rem;
+}
+.strategy .bottom .media .strategy-img.fb{
+  top: -50px;
+  left: -50px;
+}
+.strategy .bottom .media .strategy-img.ig{
+  top: -60px;
+  right: -30px;
+}
+.strategy .bottom .media .strategy-img.not{
+  bottom: -30px;
+  right: -30px;
+}
+.strategy .bottom .media .strategy-img.tw{
+  width: 40px;
+  height: 45px;
+  bottom: 50px;
+  left: 40px;
+}
+.strategy .bottom .media .strategy-img.wik{
+  width: 45px;
+  height: 45px;
+  bottom: 50px;
+  right: 40px;
+}
+.strategy .bottom .media .strategy-img.tw img,
+.strategy .bottom .media .strategy-img.wik img{
+  padding: .6rem;
+}
+.strategy .bottom .media-details{
+  width: 90%;
+}
+.strategy .bottom .media-details p{
+  margin: .8rem 0;
+  font-size: 1rem;
+  line-height: 1.5rem
+}
+.strategy .bottom .media-details h2{
+  margin: .3rem;
+  font-size: 1.5rem;
+  line-height: 2rem
+}
+.btn{
+  font-size: .8rem;
+  padding: .6rem 2rem;
+  color: var(--PRIMARY-COLOR);
+}
+
+/** BLOGS SECTION */
+.blogs{
+  padding: 1.5rem 0;
+  width: 95%;
+  margin: 0 auto;
+}
+#blog-header{
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  padding-bottom: 2rem;
+}
+#blog-header h2{
+  width: 45%;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+#blog-header .blog-picks{
+  gap: 1rem;
+  font-size: .9rem;
+}
+.blogs .posts{
+  width: 95%;
+/*   margin: 0 auto; */
+  display: grid;
+  gap: 1rem;
+  grid-template-areas: 
+  "post-one post-one"
+  "post-two post-three";
+  grid-template-columns: 50% 50%;
+}
+.blogs .posts .post-one,
+.blogs .posts .post-two,
+.blogs .posts .post-three{
+  gap: .5rem;
+}
+.blogs .posts .post-one button{
+  margin: .8rem 0;
+  font-size: .8rem;
+  padding: .6rem .7rem;
+  width: 30%;
+}
+.blogs .posts p{
+  font-size: .9rem;
+  line-height: 1.3rem;
+}
+.blogs .posts h4{
+  font-size: 1.1rem;
+}
+.blogs .posts .post-two .img-cont img,
+.blogs .posts .post-three .img-cont img{
+  height: 200px;
+}
+.post-two .see, .post-three .see{
+  margin-top: 1rem;
+  width: 80px;
+}
+
+
+/** SUBSCRIBE SECTION */
+.subscribe{
+  position: relative;
+  width: 95%;
+  margin: 0 auto;
+  padding: 3rem 5rem 2rem;
+  font-size: 1.3rem;
+  line-height: 2rem;
+}
+.subscribe h3{
+  font-weight: 500;
+  max-width: 80%;
+}
+.subscribe .invert{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 60px;
+}
+.subscribe .btr{
+  position: absolute;
+  width: 140px;
+  bottom: -10px;
+  right: -37px;
+}
+.subscribe .logo{
+  display: flex;
+  gap: .3rem;
+  padding-top: 1rem;
+  align-items: center;
+}
+.subscribe .logo h2{
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+.subscribe input{
+  padding: .7rem;
+  margin-right: 1rem;
+}
+.subscribe input::placeholder{
+  font-size: .8rem;
+  font-weight: 500;
+}
+
+/** FOOTER SECTION */
+footer{
+  width: 95%;
+  margin: 4rem auto;
+}
+.footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+.footer .footer-info{
+  width: 100%;
+  margin: 0 auto;
+}
+.footer-info .logo{
+  display: flex;
+  gap: .4rem;
+}
+
+.footer-info p{
+  font-size: 1rem;
+  color: #808371;
+  line-height: 1.7rem;
+  font-weight: 400;
+  margin: 1rem 0 .5rem;
+}
+.footer-info .ft-img img{
+  width: 20px;
+  height: 20px;
+}
+table{
+  width: 90%;
+  margin: 0 auto;
+}
+table th{
+  font-size: 1.1rem;
+  padding: 1.5rem 0 .7rem;
+}
+table td a{
+  line-height: 1.5rem;
+  font-size: .8rem;
+}
+footer>p{
+  padding-top: 2rem;
+}
+}
+
+@media screen and (max-width: 699px){
+  
+}
