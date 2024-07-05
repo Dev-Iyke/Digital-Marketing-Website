@@ -25,6 +25,7 @@ body{
   font-size: 1.15rem;
   padding: 1.5rem 3rem;
   color: var(--PRIMARY-COLOR);
+  cursor: pointer;
 }
 
 /** HEADER SECTION */
@@ -32,6 +33,9 @@ header{
   background-color: var(--SECONDARY-COLOR);
   color: var(--PRIMARY-COLOR);
   padding: 1.5rem 0;
+  position: fixed;
+  width: 100%;
+  z-index: 15;
 }
 nav{
   width: 80%;
@@ -64,13 +68,20 @@ nav ul li a{
   text-decoration: none;
   color: var(--PRIMARY-COLOR);
 }
-nav button{
+nav button#menu{
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 35px;
+}
+nav button.trial{
   background-color: hsla(0, 0%, 100%, 0.102);
   border: 1px solid #EDFF8166;
   color: white;
   padding: 1rem 1.7rem;
   border-radius: 25px;
   font-weight: bold;
+  cursor: pointer;
 }
 nav #menu{
   display: none;
@@ -81,7 +92,7 @@ nav #menu{
   background-color: var(--SECONDARY-COLOR);
   text-align: center;
   color: var(--PRIMARY-COLOR);
-  padding: 5rem 0 8rem;
+  padding: 7rem 0 8rem;
   position: relative;
 }
 .hero p:first-of-type{
@@ -306,7 +317,7 @@ nav #menu{
   gap: 2.5rem;
   grid-template-areas: 
   "post-one post-two post-three";
-  grid-template-columns: 55% 27.5% 27.5%;
+  grid-template-columns: 50% 25% 25%;
   
 }
 .blogs .posts .post-one{
